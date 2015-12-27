@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "Automatically add links to headings in Markdown.",
   "main": "index.js",
-  "scripts": {
-    "prepublish": "babel src --out-dir dist --ignore /__tests__/",
-    "test": "babel-tape-runner \"src/**/__tests__/*.js\" | tap-spec"
-  },
   "keywords": [
     "headings",
     "link",
